@@ -110,7 +110,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/error"
+                    to="/aivideo"
                     className="flex items-center text-gray-100 hover:bg-customColorTwo font-semibold px-4 py-2 rounded transition-colors"
                   >
                     <FaVideo className="mr-2" />

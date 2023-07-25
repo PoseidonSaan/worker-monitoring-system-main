@@ -23,6 +23,7 @@ import Camera5 from "./components/dashboard/pages/live-video-page/cameras/Camera
 import Camera6 from "./components/dashboard/pages/live-video-page/cameras/Camera6";
 import Camera7 from "./components/dashboard/pages/live-video-page/cameras/Camera7";
 import ForgotPassword from "./components/login/ForgotPassword";
+import AiVideoFeed from "./components/dashboard/pages/live-video-page/AiVideoFeed";
 
 function App() {
   const [data, setData] = useState(false);
@@ -82,6 +83,7 @@ function App() {
             <Route path="/camera5" element={<Camera5 />} />
             <Route path="/camera6" element={<Camera6 />} />
             <Route path="/camera7" element={<Camera7 />} />
+            <Route path="aivideo" element={<AiVideoFeed />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </>
